@@ -664,7 +664,7 @@ public class Atividades {
 
     }
 
-    public  void questao50() {
+    public void questao50() {
 
     }
 
@@ -672,251 +672,251 @@ public class Atividades {
 
     }
 
-    public static void questao52() {
+    public void questao52() {
 
     }
 
-    public static void questao53() {
+    public void questao53() {
 
     }
 
-    public static void questao54() {
+    public void questao54() {
 
     }
 
-    public static void questao55() {
+    public void questao55() {
 
     }
 
-    public static void questao56() {
+    public void questao56() {
 
     }
 
-    public static void questao57() {
+    public void questao57() {
 
     }
 
-    public static void questao58() {
+    public void questao58() {
 
     }
 
-    public static void questao59() {
+    public void questao59() {
 
     }
 
-    public static void questao60() {
+    public void questao60() {
 
     }
 
-    public static void questao61() {
+    public void questao61() {
 
     }
 
-    public static void questao62() {
+    public void questao62() {
 
     }
 
-    public static void questao63() {
+    public void questao63() {
 
     }
 
-    public static void questao64() {
+    public void questao64() {
 
     }
 
-    public static void questao65() {
+    public void questao65() {
 
     }
 
-    public static void questao66() {
+    public void questao66() {
 
     }
 
-    public static void questao67() {
+    public void questao67() {
 
     }
 
-    public static void questao68() {
+    public void questao68() {
 
     }
 
-    public static void questao69() {
+    public void questao69() {
 
     }
 
-    public static void questao70() {
+    public void questao70() {
 
     }
 
-    public static void questao71() {
+    public void questao71() {
 
     }
 
-    public static void questao72() {
+    public void questao72() {
 
     }
 
-    public static void questao73() {
+    public void questao73() {
 
     }
 
-    public static void questao74() {
+    public void questao74() {
 
     }
 
-    public static void questao75() {
+    public void questao75() {
 
     }
 
-    public static void questao76() {
+    public  void questao76() {
 
     }
 
-    public static void questao77() {
+    public void questao77() {
 
     }
 
-    public static void questao78() {
+    public void questao78() {
 
     }
 
-    public static void questao79() {
+    public void questao79() {
 
     }
 
-    public static void questao80() {
+    public void questao80() {
 
     }
 
-    public static void questao81() {
+    public void questao81() {
 
     }
 
-    public static void questao82() {
+    public void questao82() {
 
     }
 
-    public static void questao83() {
+    public void questao83() {
 
     }
 
-    public static void questao84() {
+    public void questao84() {
 
     }
 
-    public static void questao85() {
+    public void questao85() {
 
     }
 
-    public static void questao86() {
+    public void questao86() {
 
     }
 
-    public static void questao87() {
+    public void questao87() {
 
     }
 
-    public static void questao88() {
+    public void questao88() {
 
     }
 
-    public static void questao89() {
+    public void questao89() {
 
     }
 
-    public static void questao90() {
+    public void questao90() {
 
     }
 
-    public static void questao91() {
+    public void questao91() {
 
     }
 
-    public static void questao92() {
+    public void questao92() {
 
     }
 
-    public static void questao93() {
+    publi void questao93() {
 
     }
 
-    public static void questao94() {
+    public void questao94() {
 
     }
 
-    public static void questao95() {
+    public void questao95() {
 
     }
 
-    public static void questao96() {
+    public void questao96() {
 
     }
 
-    public static void questao97() {
+    public void questao97() {
 
     }
 
-    public static void questao98() {
+    public void questao98() {
 
     }
 
-    public static void questao99() {
+    public void questao99() {
 
     }
 
-    public static void questao100() {
+    public void questao100() {
 
     }
 
-    public static void questao101() {
+    public void questao101() {
 
     }
 
-    public static void questao102() {
+    public void questao102() {
 
     }
 
-    public static void questao103() {
+    public void questao103() {
 
     }
 
-    public static void questao104() {
+    public void questao104() {
 
     }
 
-    public static void questao105() {
+    public void questao105() {
 
     }
 
-    public static void questao106() {
+    public void questao106() {
 
     }
 
-    public static void questao107() {
+    public void questao107() {
 
     }
 
-    public static void questao108() {
+    public void questao108() {
 
     }
 
-    public static void questao109() {
+    public void questao109() {
 
     }
 
-    public static void questao110() {
+    public void questao110() {
 
     }
 
-    public static void questao111() {
+    public void questao111() {
 
     }
 
-    public static void questao112() {
+    public void questao112() {
 
     }
 
-    public static void questao113() {
+    public void questao113() {
 
     }
 }
