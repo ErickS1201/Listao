@@ -588,87 +588,87 @@ public class Atividades {
 
     }
 
-    public static void questao31() {
+    public void questao31() {
 
     }
 
-    public static void questao32() {
+    public void questao32() {
 
     }
 
-    public static void questao33() {
+    public void questao33() {
 
     }
 
-    public static void questao34() {
+    public void questao34() {
 
     }
 
-    public static void questao35() {
+    public void questao35() {
 
     }
 
-    public static void questao36() {
+    public void questao36() {
 
     }
 
-    public static void questao37() {
+    public void questao37() {
 
     }
 
-    public static void questao38() {
+    public void questao38() {
 
     }
 
-    public static void questao39() {
+    public void questao39() {
 
     }
 
-    public static void questao40() {
+    public void questao40() {
 
     }
 
-    public static void questao41() {
+    public void questao41() {
 
     }
 
-    public static void questao42() {
+    public void questao42() {
 
     }
 
-    public static void questao43() {
+    public void questao43() {
 
     }
 
-    public static void questao44() {
+    public void questao44() {
 
     }
 
-    public static void questao45() {
+    public void questao45() {
 
     }
 
-    public static void questao46() {
+    public void questao46() {
 
     }
 
-    public static void questao47() {
+    public void questao47() {
 
     }
 
-    public static void questao48() {
+    public void questao48() {
 
     }
 
-    public static void questao49() {
+    public void questao49() {
 
     }
 
-    public static void questao50() {
+    public  void questao50() {
 
     }
 
-    public static void questao51() {
+    public void questao51() {
 
     }
 
