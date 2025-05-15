@@ -584,7 +584,7 @@ public class Atividades {
 
     }
 
-    public static void questao30() {
+    public void questao30() {
 
     }
 
