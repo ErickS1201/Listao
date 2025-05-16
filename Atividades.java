@@ -524,60 +524,204 @@ public class Atividades {
         double largura = tc.nextDouble();
         System.out.println("Digite o valor da Altura (Cm): ");
         double altura = tc.nextDouble();
-        double volumeLitros = (comprimento*largura*altura)/1000;
+        double volumeLitros = (comprimento * largura * altura) / 1000;
         System.out.printf("\nO volume total é : %.1f Litros", volumeLitros);
     }
 
     public void questao16() {
+//    Faça um algoritmo que leia um valor inteiro e apresente os resultados do 
+//    quadrado e do cubo do valor lido. 
+        System.out.println("Digite um numero inteiro: ");
+        int a = tc.nextInt();
+        System.out.println("O valor do quadrado de " + a + " é " + (a * a) + " e do cubo é " + (a * a * a));
 
     }
 
     public void questao17() {
-
+//    Faça um algoritmo que leia dois valores inteiros (A e B) e apresente o 
+//            resultado do quadrado da soma dos valores lidos. 
+        System.out.println("Digite um numero inteiro : ");
+        int a = tc.nextInt();
+        System.out.println("Digite mais um numero inteiro: ");
+        int b = tc.nextInt();
+        int soma = a + b;;
+        System.out.println("O quadrado da soma de A=" + a + "+B " + b + " é: " + (soma * soma));
     }
 
     public void questao18() {
-
+//Faça um algoritmo que leia dois valores inteiros (A e B) e 
+//        apresente o resultado da soma do quadrado de cada valor lido. 
+        System.out.println("Digite um numero inteiro (a): ");
+        int a = tc.nextInt();
+        System.out.println("Digite outro numero inteiro (b): ");
+        int b = tc.nextInt();
+        int quadA = a * a;
+        int quadB = b * b;
+        System.out.println("O resultado da soma do quadrado de A=" + quadA + " + B=" + quadB + " é " + (quadA + quadB));
     }
 
     public void questao19() {
+//Faça um algoritmo que leia dois números nas variáveis Val1 e Val2, 
+//calcule sua média na variável Media e imprima seu valor.
+        System.out.println("Digite um numero (A): ");
+        double val1 = tc.nextDouble();
+        System.out.println("Digite um numero (B): ");
+        double val2 = tc.nextDouble();
+        double media = (val1 + val2) / 2;
+        System.out.println("A media de A e B é: " + media);
 
     }
 
     public void questao20() {
-
+        System.out.println("Digite um numero: ");
+        int a = tc.nextInt();
+        System.out.println("Digite outro numero: ");
+        int b = tc.nextInt();
+        System.out.println("A ordem dos numeros (A e B)ao contrario é " + b + " " + a);
     }
 
     public void questao21() {
-
+// Faça um algoritmo que leia a velocidade de um veículo em 
+// km/h e calcule e imprima a velocidade em m/s (metros por segundo).
+        System.out.println("Digite o valor da valocidade em kilometros por hora (km/h): ");
+        double vel = tc.nextDouble();
+        double velms = vel / 3.6;
+        System.out.println("A velocidade em metros por segundo (m/s) é: " + velms);
     }
 
     public void questao22() {
-
+//Faça um algoritmo que leia dois números inteiros (Int1 e Int2) e imprima o 
+//        quociente e o resto da divisão inteira de Int1 por Int2. 
+        System.out.println("Digite um numero (A): ");
+        int a = tc.nextInt();
+        System.out.println("Digite um numero (B): ");
+        int b = tc.nextInt();
+        int mod = a % b;
+        System.out.println("O quociente dos numero (A) e (B) é" + (a / b) + " e o resto é " + mod);
     }
 
     public void questao23() {
+//        Considere a seguinte situação: descontam-se inicialmente 10% do salário
+//        bruto do trabalhador como contribuição à previdência social. Após esse 
+//        desconto, há um outro desconto de 5% sobre o valor restante do salário 
+//        bruto, a título de um determinado imposto. Faça um algoritmo que leia o
+//        salário bruto de um cidadão e imprima o seu salário líquido.
+        System.out.println("Digite o salario do trabalhador: ");
+        double sal = tc.nextDouble();
+        double descInss = sal * (1 - 0.1);
+        double salarioLiq = (descInss * (1 - 0.05));
+        if (sal == 1518.0) {
+            System.out.println("E o salario óóó ");
+        }
+        System.out.printf("\nO salario liquido do trabalhador é: %.2f", salarioLiq);
 
     }
 
     public void questao24() {
+//        Leia um código de cinco algarismos (variável Código) e gere o digito 
+//verificador (DigitoV) módulo 7 para o mesmo. Supondo que os cinco algarismos do 
+//código são ABCDE, uma forma de calcular o dígito desejado, com módulo 7 é: 
+//DigitoV = resto da divisão de S por 7, onde S = 6*A + 5*B + 4*C + 3*D + 2*E 
+        System.out.println("Digite um codigo com 5 algarismos: ");
+        int cod = tc.nextInt();
+        if (cod < 10000 || cod > 99999) {
+            System.out.println("O numero deve conter 5 algarismos");
+            return;
+        }
 
+        int a = cod / 10000 % 10;
+        int b = cod / 1000 % 10;
+        int c = cod / 100 % 10;
+        int d = cod / 10 % 10;
+        int e = cod % 10;
+        int s = 6 * a + 5 * b + 4 * c + 3 * d + 2 * e;
+        int digV = s % 7;
+
+        System.out.println("O digito verificador (Modulo 7) é: " + digV);
     }
 
     public void questao25() {
+        System.out.println("Digite um numero (A)");
+        int a = tc.nextInt();
+        System.out.println("Digite um numero (B)");
+        int b = tc.nextInt();
+        System.out.println("o maior é: ");
+        if (a > b) {
+            System.out.println(a);
+        } else {
+            System.out.println(b);
+        }
 
     }
 
     public void questao26() {
+// Faça um algoritmo que leia um número N e imprima "F1", "F2" ou "F3", conforme a condição: 
+//"F1", se N <= 10 
+//"F2", se N > 10 e N <= 100 
+//"F3", se N > 100 
+        System.out.println("DIGITE UM NUMERO: ");
+        int num = tc.nextInt();
+        if (num <= 10) {
+            System.out.println("F1");
+        }
+        if (num > 10 && num <= 100) {
+            System.out.println("F2");
+        }
+        if (num > 100) {
+            System.out.println("F3");
+        }
 
     }
 
     public void questao27() {
-
+//O sistema de avaliação de determinada disciplina, é composto por três provas. 
+//A primeira prova tem peso 2, a segunda tem peso 3 e a terceira tem peso 5. Faça 
+//um algoritmo para calcular a média final de um aluno desta disciplina. 
+        System.out.println("Digite a nota da Primeira prova (PESO 2.0): ");
+        double av1 = tc.nextDouble();
+        if (av1 > 2) {
+            System.out.println("Valor maximo é 2.0");
+            return;
+        }
+        System.out.println("Digite a nota da Primeira prova (PESO 3.0): ");
+        double av2 = tc.nextDouble();
+        if (av2 > 3) {
+            System.out.println("Valor maximo é 2.0");
+            return;
+        }
+        System.out.println("Digite a nota da Primeira prova (PESO 5.0): ");
+        double av3 = tc.nextDouble();
+        if (av3 > 2) {
+            System.out.println("Valor maximo é 2.0");
+            return;
+        }
+        double media = (av1 + av2 + av3) / 3;
+        System.out.printf("\nA media do aluno é: %.2f", media);
     }
 
     public void questao28() {
+//Construa um algoritmo que receba como entrada três valores e os imprima em ordem crescente.
+        System.out.println("Digite um numero (A)");
+        int[] numeros = new int[3];
+        numeros[0] = tc.nextInt();
+        System.out.println("Digite um numero (B)");
+        numeros[1] = tc.nextInt();
+        System.out.println("Digite um numero (c)");
+        numeros[2] = tc.nextInt();
+        for (int j = 0; j < 2; j++) {
+            for (int i = 0; i < 2; i++) {
+                if (numeros[i] > numeros[i + 1]) {
+                    int temp = numeros[i];
+                    numeros[i] = numeros[i + 1];
+                    numeros[i + 1] = temp;
+                }
+            }
+        }
 
+        System.out.println("Vetor ordenado: ");
+        for (int numero : numeros) {
+            System.out.print(numero + " ");
+        }
     }
 
     public void questao29() {
@@ -768,7 +912,7 @@ public class Atividades {
 
     }
 
-    public  void questao76() {
+    public void questao76() {
 
     }
 
@@ -836,7 +980,7 @@ public class Atividades {
 
     }
 
-    publi void questao93() {
+    public void questao93() {
 
     }
 
